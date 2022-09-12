@@ -6,7 +6,7 @@
 int main(void)
 {
 char aToZ;
-for(aToZ = 'a'; aToZ <= 'z'; aToZ++)
+for (aToZ = 'a'; aToZ <= 'z'; aToZ++)
 putchar(aToZ);
 putchar('\n');
 return (0);
