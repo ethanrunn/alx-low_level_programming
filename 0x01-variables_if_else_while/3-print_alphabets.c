@@ -9,7 +9,7 @@ char aToz;
 char AtoZ;
 for (aToz = 'a'; aToz <= 'z'; aToz++)
 putchar(aToz);
-for (AtoZ = 'A';, AtoZ <= 'Z'; AtoZ++)
+for (AtoZ = 'A'; AtoZ <= 'Z'; AtoZ++)
 putchar(AtoZ);
 putchar('\n');
 return (0);
