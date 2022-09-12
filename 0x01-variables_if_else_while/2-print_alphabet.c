@@ -5,13 +5,9 @@
  */
 int main(void)
 {
-char c = 'a';
-while (c <= 'z')
-{
-putchar(c);
-c++;
-}
+char aToZ;
+for(aToZ = 'a'; aToZ <= 'z'; aToZ++)
+putchar(aToZ);
 putchar('\n');
-
 return (0);
 }
