@@ -5,15 +5,12 @@
  */
 int main(void)
 {
-char ch;
-for (ch ='a'; ch <='z'; ch++)
-{
-putchar(ch);
-}
-for (ch = 'A'; ch <= 'Z'; ch++)
-{
-putchar(ch)
-}
+char aToz;
+char AtoZ;
+for (aToz = 'a'; aToz <= 'z'; aToz++)
+putchar(aToz);
+for (AtoZ = 'A'; AtoZ <= 'Z'; AtoZ++)
+putchar(AtoZ);
 putchar('\n');
 return (0);
 }

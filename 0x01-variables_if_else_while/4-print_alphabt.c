@@ -5,12 +5,11 @@
  */
 int main(void)
 {
-char c = 'a';
-while (c <= 'z')
+char aToz;
+for (aToz = 'a'; aToz <= 'z'; aToz++)
 {
-if (c != 'q' && c != 'e')
-putchar(c);
-c++;
+if (aToz != 'q' && aToz != 'e')
+putchar(aToz);
 }
 putchar('\n');
 return (0);
