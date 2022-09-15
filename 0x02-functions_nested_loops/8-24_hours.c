@@ -3,6 +3,7 @@
 /**
  * jack_bauer - This function prints every
  * minute of the day of Jack Bauer
+ *
  * Return: always 0
  */
 
