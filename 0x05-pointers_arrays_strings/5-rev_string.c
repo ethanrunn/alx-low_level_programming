@@ -18,7 +18,7 @@ void rev_string(char *s)
 	}
 
 	b = b - 1;
-			
+
 	while (f < b + 1 / 2)
 	{
 		z = s[f];
