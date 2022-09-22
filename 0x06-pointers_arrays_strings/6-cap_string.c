@@ -22,7 +22,7 @@ int isDelimiter(char c)
 
 {
 	int i;
-	
+
 	char delimiter[] = " \t\n,.!?\"(){}";
 
 	for (i = 0; i < 12; i++)
@@ -41,11 +41,11 @@ char *cap_string(char *s)
 {
 
 	char *ptr = s;
-		
+
 	int foundDelimit = 1;
-			
+
 	while (*s)
-		
+
 	{
 		if (isDelimiter(*s))
 			foundDelimit = 1;
